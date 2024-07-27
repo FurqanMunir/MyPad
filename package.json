@@ -1,0 +1,58 @@
+{
+  "name": "mypad",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-native-community/datetimepicker": "^5.0.1",
+    "@react-navigation/native": "^6.0.6",
+    "@react-navigation/native-stack": "^6.2.5",
+    "@react-navigation/stack": "^6.0.11",
+    "formik": "^2.2.9",
+    "lottie-react-native": "^5.0.1",
+    "moment": "^2.29.1",
+    "react": "17.0.2",
+    "react-native": "0.66.3",
+    "react-native-calendar-picker": "^7.1.2",
+    "react-native-circle-checkbox": "^0.1.6",
+    "react-native-draggable-view": "0.0.6",
+    "react-native-element-dropdown": "^1.5.5",
+    "react-native-elements": "^3.4.2",
+    "react-native-event-listeners": "^1.0.7",
+    "react-native-floating-action": "^1.22.0",
+    "react-native-gesture-handler": "^1.10.3",
+    "react-native-keyboard-aware-scroll-view": "^0.9.5",
+    "react-native-paper": "^4.10.1",
+    "react-native-pell-rich-editor": "^1.8.6",
+    "react-native-safe-area-context": "^3.3.2",
+    "react-native-screens": "^3.9.0",
+    "react-native-settings-list": "^1.8.0",
+    "react-native-slidable-drawer-panel": "^1.0.6",
+    "react-native-splash-screen": "^3.2.0",
+    "react-native-status-bar-height": "^2.6.0",
+    "react-native-swipeable": "^0.6.0",
+    "react-native-vector-icons": "^9.0.0",
+    "react-native-webview": "^11.15.0",
+    "rn-bottom-drawer": "^1.4.3",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/runtime": "^7.12.5",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "babel-jest": "^26.6.3",
+    "eslint": "7.14.0",
+    "jest": "^26.6.3",
+    "metro-react-native-babel-preset": "^0.66.2",
+    "react-test-renderer": "17.0.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
